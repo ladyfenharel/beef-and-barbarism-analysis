@@ -26,7 +26,7 @@ This notebook and report were created using Python (matplotlib, pandas) and inco
 ![Chart 1](charts/top_beef_consuming_countries_1961.png)
 
 **Native American Land vs. Cattle Ranching Expansion (1865–1890):**  
-![Chart 2](charts/side_by_side_land_vs_cattle.png)
+![Chart 2](charts/side_by_side_land_vs_cattle_1961.png)
 
 ## 📄 Full Report
 [Download Report (DOCX)](Beef_and_Barbarism_Data_Internship_Portfolio.docx)
