@@ -1,37 +1,50 @@
 # Beef and Barbarism: A Data-Driven Analysis of America's Meat Industry
 
-This project is an excerpt from a larger research effort examining the relationship between meat consumption, settler colonialism, and racial capitalism in 19th-century America. In this focused slice of the work, I use historical data to explore how beef consumption patterns and the expansion of cattle ranching were tied to Native American land dispossession and the construction of racial hierarchies.
+A mixed-methods historical analysis combining Python data visualization with 
+archival primary sources to examine how cattle ranching expansion, bison 
+extermination, and Native American land dispossession functioned as a 
+connected system in 19th-century America.
 
-The visualizations here highlight two core findings:
-- A side-by-side view of Native land loss and cattle ranching growth (1865–1890)
-- Per capita beef consumption by country in 1961, reflecting global inequality rooted in colonial histories
+## Project Overview
 
-This notebook and report were created using Python (matplotlib, pandas) and incorporate both quantitative analysis and historical context. They were developed as part of my data science portfolio to demonstrate applied skills in visualization, historical data interpretation, and storytelling.
+This project argues that Native American land dispossession and cattle expansion 
+were not parallel developments but structurally connected ones, linked by the 
+deliberate collapse of the Plains bison population. Global beef consumption data 
+from 1961 shows that the material inequalities produced by that process persisted 
+well into the 20th century, reinforced by cultural narratives that framed beef 
+eating as a marker of civilization and racial superiority.
 
+## Methods
 
-## 📊 Key Features
-- Historical beef consumption by region and nation (1961)
-- Indexed comparison of Native land loss and cattle expansion (1865–1890)
-- Visuals created in Python using matplotlib
-- Contextual analysis combining data and primary sources
+Quantitative data is triangulated with primary sources including federal treaties, 
+congressional records, National Archives documents, missionary correspondence, 
+and government reports. Where historical estimates vary across sources, the 
+project acknowledges the range rather than selecting a single figure.
 
-## 🧰 Tools Used
+## Visualizations
+
+- Native American land loss vs. cattle ranching expansion (1865–1890)
+- Bison habitat contraction vs. cattle growth on the Great Plains (1860–1920)
+- American bison population collapse, pre-contact to 1889
+- Global beef consumption by country (1961)
+
+## Tools
+
 - Python (Pandas, Matplotlib)
-- Microsoft Word (Report layout)
-- Data sourcing from FAOSTAT, "Invasion of America," USDA Census
+- Jupyter Notebook
+- Primary sources: National Archives, Smithsonian Institution, FAOSTAT, 
+  University of Nebraska "Invasion of America" dataset
 
-## 📈 Visuals
+## Key Sources
 
-**Top Beef-Consuming Countries (1961):**  
-![Chart 1](charts/top_beef_consuming_countries_1961.png)
+- Hornaday, William T. "The Extermination of the American Bison." 
+  Smithsonian Institution, 1889.
+- Lueck, Dean. "The Extermination and Conservation of the American Bison." 
+  Journal of Legal Studies, 2002.
+- Treaty with the Sioux, 1868. National Archives Record Group 11.
 
-**Native American Land vs. Cattle Ranching Expansion (1865–1890):**  
-![Chart 2](https://github.com/user-attachments/assets/d1845020-e59b-4f76-863a-5dca4d7ccec2)
+## Run the Notebook
 
-## 📄 Full Report
-[Download Report (DOCX)](Beef_and_Barbarism_Data_Internship_Portfolio.docx)
-
-## 📚 Sources
-- FAOSTAT (1961 consumption data)
-- University of Nebraska – "Invasion of America"
-- USDA Agricultural Census (historical estimates)
+git clone https://github.com/ladyfenharel/beef-and-barbarism-analysis
+cd beef-and-barbarism-analysis
+pip install -r requirements.txt
