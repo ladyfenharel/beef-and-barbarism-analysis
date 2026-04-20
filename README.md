@@ -45,8 +45,10 @@ project acknowledges the range rather than selecting a single figure.
 
 ## Run the Notebook
 
+```
 git clone https://github.com/ladyfenharel/beef-and-barbarism-analysis
 
 cd beef-and-barbarism-analysis
 
 pip install -r requirements.txt
+```
